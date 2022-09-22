@@ -8,6 +8,7 @@
 
 body {
   overflow: overlay;
+  overflow-x: hidden;
 }
 
 /*Scrollbar*/
@@ -141,6 +142,10 @@ section p {
 }
 
 /*Section: Color Palette*/
+.swatches article {
+  margin-top: 100px;
+}
+
 .swatches article p span {
   font-size: 15px;
   color: gray;
@@ -275,4 +280,166 @@ section p {
 }
 .grayscale div.color8{
   background-color: hsl(0, 0%, 0%);
+}
+
+/*Section: Fonts*/
+/*Divide into 2 cols*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/*Fonts*/
+section.fonts {
+  margin: 250px 0;
+}
+
+.fonts article {
+  margin: auto 0;
+}
+
+.fontint div {
+  position: relative;
+  top: -57px;
+}
+
+.fonts h2 {
+  margin-bottom: 0;
+}
+
+.fonts p.fontim {
+  position: relative;
+  top:-35px;
+  font-size: 20px;
+  font-weight: bold;
+  width:fit-content;
+  padding: 0 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.fonts p {
+  font-size: 30px;
+}
+
+.fontsec p {
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  left: 80px;
+}
+
+.font1 h3 {
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+}
+
+.font1 p {
+  font-family: 'Bebas Neue';
+  top: -37px;
+}
+
+.font1 p.light {
+  font-weight: 50;
+}
+
+.font1 p.bold {
+  font-weight: bold;
+}
+
+.font2 h3 {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+}
+
+.font2 p {
+  font-family: 'Roboto Condensed';
+  top: -26px;
+}
+
+.font2 p.light {
+  font-weight: lighter;
+}
+
+.font2 p.bold {
+  font-weight: bold;
+}
+
+.font3 h3 {
+  font-family: 'Abril Fatface';
+  font-size: 22px;
+}
+
+.font3 p {
+  font-family: 'Abril Fatface';
+  font-size: 18px;
+  top: -30px;
+}
+
+.font3 p.light {
+  font-weight: lighter;
+}
+
+.font3 p.bold {
+  font-weight: bold;
+}
+
+.font4 h3 {
+  font-family: 'Aref Ruqaa Ink';
+  font-size: 22px;
+}
+
+.font4 p {
+  font-family: 'Aref Ruqaa Ink';
+  font-size: 18px;
+  top: -32px;
+}
+
+.font4 p.light {
+  font-weight: lighter;
+}
+
+.font4 p.bold {
+  font-weight: bold;
+}
+
+.font5 h3 {
+  font-family: 'Ms Madi';
+  font-size:30px;
+}
+
+.font5 p {
+  font-family: 'Ms Madi';
+  font-size: 25px;
+  top: -35px;
+}
+
+.font5 p.light {
+  font-weight: lighter;
+}
+
+.font5 p.bold {
+  font-weight: bold;
+}
+
+
+/*Text Styles*/
+section.tstyle {
+  margin: 200px 0;
+}
+
+article.column.styles {
+  border: 1px solid gray;
+  width: fit-content;
+}
+
+article.styles h1, article.styles h2, article.styles p{
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  text-align: left;
+  padding: 0;
 }
